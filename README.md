@@ -2,7 +2,7 @@
 
 *Dark Arch* is a theme for Plymouth, the boot splash tool for Linux. It's designed with Arch Linux in mind, but can be used in any installation that uses Plymouth.
 
-[![Screenshot](https://jsayol.github.io/dark-arch-plymouth-theme/img/screenshot_small.png)](https://jsayol.github.io/dark-arch-plymouth-theme/img/screenshot.png)
+[![Screenshot](https://jsayol.github.io/plymouth-theme-dark-arch/img/screenshot_small.png)](https://jsayol.github.io/plymouth-theme-dark-arch/img/screenshot.png)
 
 ## How to install the theme
 Use your favorite way to install packages from the AUR. For example:
