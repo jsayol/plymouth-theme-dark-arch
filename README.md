@@ -5,28 +5,18 @@
 [![Screenshot](https://jsayol.github.io/dark-arch-plymouth-theme/img/screenshot_small.png)](https://jsayol.github.io/dark-arch-plymouth-theme/img/screenshot.png)
 
 ## How to install the theme
-From the terminal, run this single command:
+Use your favorite way to install packages from the AUR. For example:
 
-    wget -qO- https://jsayol.github.io/dark-arch-plymouth-theme/dl.sh|sudo bash -
+    yaourt -S plymouth-theme-dark-arch
 
-This will download and install the latest version of the theme.
-Once it finishes you can remove the downloaded files, if you want.
+Once installed you can set it as your theme:
 
-    rm -rf ~/dark-arch
+    sudo plymouth-set-default-theme -R arch-dark
 
 ## How to uninstall the theme
-From the terminal, run this command:
+Simply remove the package with pacman:
 
-    sudo /usr/share/plymouth/themes/dark-arch/uninstall.sh
-
-## How to preview the theme
-After installing, you can preview the theme without having to reboot. Just run this command from the terminal:
-
-    sudo /usr/share/plymouth/themes/dark-arch/preview.sh
-
-It runs for 2 seconds by default. You can optionally specify the number of seconds to run the preview:
-
-    sudo /usr/share/plymouth/themes/dark-arch/preview.sh 10
+    sudo pacman -Rs plymouth-theme-dark-arch
 
 ## License
 
