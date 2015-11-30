@@ -35,7 +35,7 @@ fun RotatedImage (index) {
 }
 
 
-//background.original_image = ImageNew("background.png");
+background.original_image = ImageNew("background.png");
 //Window.SetBackgroundTopColor(0.234, 0.43, 0.705);
 //Window.SetBackgroundBottomColor(0.16, 0.25, 0.44);
 Window.SetBackgroundTopColor(0, 0, 0);
@@ -63,7 +63,7 @@ logo.sprite.SetY(Window.GetHeight() / 2 - logo.image.GetHeight() / 2);
 logo.sprite.SetOpacity(1);
 logo.sprite.SetZ(10000);
 
-/*
+//*
 background.image = background.original_image.Scale(Window.GetMaxWidth() , Window.GetMaxHeight());
 background.sprite = SpriteNew();
 background.sprite.SetImage(background.image);
