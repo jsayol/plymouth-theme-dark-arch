@@ -11,7 +11,7 @@ Use your favorite way to install packages from the AUR. For example:
 
 Once installed you can set it as your theme:
 
-    sudo plymouth-set-default-theme -R arch-dark
+    sudo plymouth-set-default-theme -R dark-arch
 
 ## How to uninstall the theme
 Simply remove the package with pacman:
